@@ -6,7 +6,7 @@ body /*Altera tudo relacionado ao fundo da pagina*/
 .Quadrado_central /* titulo inicial do meu site*/
 {
     color: black;   /*muda a cor da fonte*/
-    background-color: rgba(0, 0, 0, 0.253); /*cor de fundo do quadrado*/
+    background-color: rgba(0, 0, 0, 0.315); /*cor de fundo do quadrado*/
     position:absolute; /*Deixa o site relativo a informação relacionada no site*/
     /*Adiciona uma borda ao meu texto relacionado aa classe*/
     border-radius: 100px; /*curvatura da borda*/
@@ -15,7 +15,19 @@ body /*Altera tudo relacionado ao fundo da pagina*/
     transform: translate(-50%, -50%); /*relativo para as demais posições*/
     width: 1000px; /*largura do quadrado*/
     height: 700px; /*altura do quadrado*/
-    box-shadow: 0px 0px 60px rgb(1, 255, 213); /*deixa o fundo com sombra*/
+    box-shadow: 0px 0px 20px rgba(1, 255, 213, 0.733); /*deixa o fundo com sombra*/
+    transition: box-shadow 1s; /*tempo de transição da sombra do quadrado*/
+    transition: background-color 1s; /*tempo de transição da cor de fundo do quadrado*/
+    
+    
+}
+
+.Quadrado_central:hover{
+    transition: background-color 1s;
+    transition: box-shadow 1s;
+    background-color: rgba(0, 0, 0, 0.116);
+    box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.486);
+    transition: 1s;
 }
 .imagem_fundo{
 
@@ -81,6 +93,35 @@ body /*Altera tudo relacionado ao fundo da pagina*/
      font-size: 50px;
      color: aliceblue;
      box-shadow: 0px 0px 10px rgba(0, 255, 234, 0.425);   
+}
+
+.btn_entrar{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.btn_principal{
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height:50px ;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    font-family: 'Chopsic';
+    font-size: 30px;
+    transition: 0.30s;
+    cursor: pointer;
+}
+
+.btn_principal:hover{
+    
+    font-size: 33px;
+    box-shadow: 0px 0px 50px rgb(0, 162, 255);
+    background-color: rgba(0, 225, 255, 0.637);
+    transition: font-size 1s;
+    transition: background-color 1s;
+    transition: font-size 0.2s;
 }
 
 
