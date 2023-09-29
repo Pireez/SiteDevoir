@@ -8,10 +8,10 @@ body /*Altera tudo relacionado ao fundo da pagina*/
 .Quadrado_central /* titulo inicial do meu site*/
 {
     color: black;   /*muda a cor da fonte*/
-    background-color: rgba(228, 228, 228, 0.274); /*cor de fundo do quadrado*/
+    background-color: rgba(0, 0, 0, 0.253); /*cor de fundo do quadrado*/
     position:absolute; /*Deixa o site relativo a informação relacionada no site*/
     /*Adiciona uma borda ao meu texto relacionado aa classe*/
-    border-radius: 70px; /*curvatura da borda*/
+    border-radius: 100px; /*curvatura da borda*/
     top: 50%; /*posicionando para cima o quadrado*/
     left: 50%;/*posicionando para direita o quadrado*/
     transform: translate(-50%, -50%); /*relativo para as demais posições*/
@@ -28,9 +28,20 @@ body /*Altera tudo relacionado ao fundo da pagina*/
     height: auto;
 }
 
+@font-face {
+    font-family:'Chopsic';
+    src: url('font/Chopsic.otf') format('opentype'),
+         url('/font/AQUATIC.ttf') format('truetype');
+}
+
 .login {
+
+    font-family: 'Chopsic';
+    text-shadow:0px 0px 5px rgba(2, 252, 219, 0.767);
+    color: rgb(255, 255, 255);
     text-align: center; /*alinho o texto no meio*/
-    font-size: 50px;
+    margin-top: 10px;
+    font-size: 60px;
 
 }
 
