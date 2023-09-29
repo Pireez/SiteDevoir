@@ -3,8 +3,6 @@ body /*Altera tudo relacionado ao fundo da pagina*/
  background-color: black;
 
 }
-
-
 .Quadrado_central /* titulo inicial do meu site*/
 {
     color: black;   /*muda a cor da fonte*/
@@ -42,7 +40,48 @@ body /*Altera tudo relacionado ao fundo da pagina*/
     text-align: center; /*alinho o texto no meio*/
     margin-top: 10px;
     font-size: 60px;
-
 }
+
+.input_usuario{
+
+    text-align: center;
+    margin-top: 150px;
+}
+.input_senha{
+
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.label_usu{
+    text-align: center;
+    position: relative;
+    top: 140px;
+    right: 220px;
+    font-size: 15pt;
+    font-family: 'Chopsic';
+    text-shadow:0px 0px 5px rgba(2, 252, 219, 0.767);
+    color: rgb(255, 255, 255);
+}
+.label_password{
+    text-align: center;
+    position: relative;
+    top: 70px;
+    right: 240px;
+    font-size: 15pt;
+    font-family: 'Chopsic';
+    text-shadow:0px 0px 5px rgba(2, 252, 219, 0.767);
+    color: rgb(255, 255, 255);
+}
+.usuario{
+     text-align: center;
+     background-color: rgba(0, 0, 0, 0.315);
+     border-radius: 20px;
+     border: none;
+     font-size: 50px;
+     color: aliceblue;
+     box-shadow: 0px 0px 10px rgba(0, 255, 234, 0.425);   
+}
+
 
 
